@@ -10,11 +10,28 @@ Este repositório contém prompts e diretrizes para a criação de chatbots que 
 
 Atualmente, o repositório oferece prompts para as seguintes certificações:
 
+#### Foundational
 - **AWS Certified Cloud Practitioner**
-- **AWS Certified SysOps Administrator Associate**
-- **AWS Certified Solutions Architect Associate**
-- **AWS Certified Developer Associate**
-- **AWS Certified Machine Learning Specialty**
+- **AWS Certified AI Practitioner**
+
+#### Associate
+- **AWS Certified SysOps Administrator**
+- **AWS Certified Solutions Architect**
+- **AWS Certified Developer**
+- **AWS Certified Machine Learning Engineer**
+- **AWS Certified Data Engineer**
+
+#### Professional
+- **AWS Certified Solutions Architect – Professional**
+- **AWS Certified DevOps Engineer – Professional**
+
+#### Specialty
+- **AWS Certified Machine Learning – Specialty**
+- **AWS Certified Security – Specialty (Em desenvolvimento)**
+- **AWS Certified Advanced Networking – Specialty (Em desenvolvimento)**
+- **AWS Certified Database – Specialty (Em desenvolvimento)**
+- **AWS Certified Data Analytics – Specialty (Em desenvolvimento)**
+- **AWS Certified SAP on AWS – Specialty (Em desenvolvimento)**
 
 ### Conteúdo
 
