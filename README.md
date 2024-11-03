@@ -1,7 +1,3 @@
-Aqui está o README atualizado com links para as IA generativas utilizadas nos testes:
-
----
-
 # AWS Certification Prompts
 
 Bem-vindo ao **AWS Certification Prompts**, uma coleção de prompts de simulado para certificações AWS. Este repositório visa ajudar candidatos a se prepararem para exames AWS, oferecendo experiências interativas e realistas que refletem o estilo e a complexidade dos exames oficiais.
