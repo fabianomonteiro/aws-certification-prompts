@@ -1,73 +1,106 @@
-## AWS Certification Prompts
+### README Principal
 
-Uma coleção de prompts para chatbots projetados para auxiliar na preparação para exames de certificação AWS, como o AWS Cloud Practitioner, AWS SysOps Administrator Associate, e muitas outras certificações associadas à AWS.
+# AWS Certification Prompts
 
-### Visão Geral
+Bem-vindo ao **AWS Certification Prompts**, uma coleção de prompts de simulado para certificações AWS. Este repositório visa ajudar candidatos a se prepararem para exames AWS, oferecendo experiências interativas e realistas que refletem o estilo e a complexidade dos exames oficiais.
 
-Este repositório contém prompts e diretrizes para a criação de chatbots que simulam exames de certificação AWS. Os prompts são elaborados para ajudar candidatos a se prepararem para os exames, fornecendo perguntas práticas interativas que refletem o estilo e a dificuldade dos exames oficiais.
+## Visão Geral
 
-### Certificações Incluídas
+Este repositório contém prompts para criar chatbots que simulam perguntas de certificação AWS, incluindo o AWS Cloud Practitioner, SysOps Administrator Associate, Solutions Architect Professional, entre outros. Cada prompt oferece perguntas práticas, feedback em tempo real, e recursos adicionais para reforçar o aprendizado.
 
-Atualmente, o repositório oferece prompts para as seguintes certificações:
+### Funcionalidades dos Prompts
 
-#### Foundational
-- **AWS Certified Cloud Practitioner**
-- **AWS Certified AI Practitioner**
+- **Interatividade:** Prompts que guiam o usuário em simulados personalizados, com feedback imediato e explicações.
+- **Reforço de Aprendizado:** Flashcards e explicações detalhadas para questões, fortalecendo a compreensão.
+- **Distribuição de Questões:** Divisão de perguntas conforme as porcentagens do exame oficial.
+- **Atualização Contínua:** Prompts atualizados para acompanhar mudanças nos serviços da AWS.
 
-#### Associate
-- **AWS Certified SysOps Administrator**
-- **AWS Certified Solutions Architect**
-- **AWS Certified Developer**
-- **AWS Certified Machine Learning Engineer**
-- **AWS Certified Data Engineer**
+## Status de Validação dos Prompts
 
-#### Professional
-- **AWS Certified Solutions Architect – Professional**
-- **AWS Certified DevOps Engineer – Professional**
+| Certificação | Nível | ChatGPT | Claude | Gemini | Status |
+|-------------|--------|----------|---------|---------|---------|
+| AWS Certified Cloud Practitioner | Foundational | ✅ | ❓ | ❌ | Ativo |
+| AWS Certified AI Practitioner | Foundational | ✅ | ❓ | ❌ | Ativo |
+| AWS Certified SysOps Administrator | Associate | ✅ | ❓ | ❌ | Ativo |
+| AWS Certified Solutions Architect | Associate | ✅ | ❓ | ❌ | Ativo |
+| AWS Certified Developer | Associate | ✅ | ❓ | ❌ | Ativo |
+| AWS Certified Machine Learning Engineer | Associate | ✅ | ❓ | ❌ | Ativo |
+| AWS Certified Data Engineer | Associate | ✅ | ❓ | ❌ | Ativo |
+| AWS Solutions Architect Professional | Professional | ✅ | ✅ | ❌ | Ativo |
+| AWS DevOps Engineer Professional | Professional | ✅ | ❓ | ❌ | Ativo |
+| AWS Machine Learning Specialty | Specialty | ✅ | ❓ | ❌ | Ativo |
+| AWS Security Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
+| AWS Advanced Networking Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
+| AWS Database Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
+| AWS Data Analytics Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
+| AWS SAP on AWS Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
 
-#### Specialty
-- **AWS Certified Machine Learning – Specialty**
-- **AWS Certified Security – Specialty (Em desenvolvimento)**
-- **AWS Certified Advanced Networking – Specialty (Em desenvolvimento)**
-- **AWS Certified Database – Specialty (Em desenvolvimento)**
-- **AWS Certified Data Analytics – Specialty (Em desenvolvimento)**
-- **AWS Certified SAP on AWS – Specialty (Em desenvolvimento)**
+**Legenda:**
+- ✅ Testado e funcionando corretamente
+- ⚠️ Testado, mas com inconsistências
+- ❌ Testado e não funcional
+- ❓ Ainda não testado
 
-### Conteúdo
+## Estrutura do Repositório
 
-- **Prompts de Chatbots:** Instruções detalhadas para desenvolver chatbots que fornecem perguntas de múltipla escolha e múltiplas respostas, cobrindo diversos serviços e conceitos da AWS.
-- **Diretrizes de Criação:** Orientações sobre como construir chatbots eficazes que seguem as melhores práticas da AWS e aderem às políticas de certificação.
-- **Exemplos de Perguntas:** Exemplos de perguntas formuladas de acordo com os padrões do exame, incluindo cenários do mundo real e conceitos-chave.
+```
+aws-certification-prompts/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── 01-foundational/
+│   ├── ai-practitioner/
+│   │   └── prompt.md
+│   └── cloud-practitioner/
+│       └── prompt.md
+├── 02-associate/
+│   ├── data-engineer/
+│   │   └── prompt.md
+│   ├── developer/
+│   │   └── prompt.md
+│   ├── machine-learning-engineer/
+│   │   └── prompt.md
+│   ├── solutions-architect/
+│   │   └── prompt.md
+│   └── sysops-admin/
+│       └── prompt.md
+├── 03-professional/
+│   ├── devops-engineer/
+│   │   ├── README.md
+│   │   └── prompt.md
+│   └── solutions-architect/
+│       ├── README.md
+│       └── prompt.md
+└── 04-specialty/
+    ├── machine-learning/
+    │   └── prompt.md
+    ├── networking/
+    └── security/
+```
 
-### Como Usar
+## Como Usar
 
-1. **Explorar os Prompts:** Revise os prompts disponíveis para entender como estruturar seu chatbot.
-2. **Personalizar:** Adapte os prompts às suas necessidades específicas ou ao público-alvo.
-3. **Implementar:** Utilize os prompts em sua plataforma de chatbot preferida.
-4. **Compartilhar:** Contribua com melhorias ou novos prompts por meio de pull requests.
+1. **Escolha uma Certificação:** Navegue até o diretório específico para a certificação desejada.
+2. **Copie e Cole o Prompt:** Insira o prompt no modelo de IA desejado e personalize conforme necessário.
+3. **Simulado Personalizado:** Responda às perguntas e receba feedback instantâneo e explicações detalhadas.
+4. **Revisão com Flashcards:** Opcionalmente, revise conceitos importantes usando flashcards baseados nas perguntas respondidas.
 
-### Contribuindo
+## Contribuindo
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para relatar bugs ou solicitar novos recursos. Para contribuir:
+Para contribuir, faça o seguinte:
 
-1. Faça um fork do repositório.
-2. Crie uma nova branch com suas alterações: `git checkout -b minha-feature`.
-3. Commit suas mudanças: `git commit -m 'Adiciona nova feature'`.
-4. Faça push para a branch: `git push origin minha-feature`.
-5. Abra um pull request.
+1. **Crie um Fork** do repositório.
+2. **Crie uma Branch de Feature:** `git checkout -b feature/nova-certificacao`
+3. **Commit das Alterações:** `git commit -m 'Adiciona prompts para nova certificação'`
+4. **Envie para a Branch:** `git push origin feature/nova-certificacao`
+5. **Abra um Pull Request.**
 
-### Licença
+### Diretrizes para Contribuição
+
+- Organize os prompts por certificação e nível.
+- Atualize a tabela de status de validação e documente requisitos específicos.
+- Inclua exemplos de uso e feedback esperado.
+
+## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
-### Aviso Legal
-
-Este projeto não é afiliado, endossado ou associado de qualquer forma à Amazon Web Services (AWS). Todos os nomes de produtos e empresas são marcas comerciais™ ou marcas registradas® de seus respectivos proprietários. O uso deles neste projeto não implica afiliação ou endosso por parte deles.
-
-**Importante**: Ao utilizar este material, você concorda em respeitar os termos e políticas da AWS, incluindo a não divulgação de conteúdo protegido ou confidencial dos exames reais de certificação.
-
-### Contato
-
-Para dúvidas ou sugestões, entre em contato:
-
-- **LinkedIn**: [Fabiano Monteiro](https://www.linkedin.com/in/fabiano-monteiro-dev)
