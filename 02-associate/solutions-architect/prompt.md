@@ -139,3 +139,5 @@ d) AWS Quantum Ledger Database
 - **c)** Amazon Redshift é um data warehouse projetado para análise de dados em larga escala, não otimizado para transações de banco de dados relacional.
 
 - **d)** AWS Quantum Ledger Database é um banco de dados ledger gerenciado, que mantém um registro imutável e criptograficamente verificável de transações, mas não é um banco de dados relacional tradicional."
+
+**Comece o simulado agora!**

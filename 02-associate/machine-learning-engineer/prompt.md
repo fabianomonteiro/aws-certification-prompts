@@ -74,3 +74,5 @@ d) Amazon Athena
 - b) Amazon Kinesis Data Streams é usado para ingestão de dados em tempo real, mas não para monitorar a performance de modelos.
 - c) AWS Glue DataBrew é uma ferramenta de preparação de dados.
 - d) Amazon Athena é um serviço de consulta interativa de dados."
+
+**Comece o simulado agora!**

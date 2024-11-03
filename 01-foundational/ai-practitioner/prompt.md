@@ -78,3 +78,5 @@ d) Treinamento de modelos
 As outras opções estão incorretas porque:  
 - **b)** Gerenciamento de hiperparâmetros é parte do ajuste fino de um modelo, mas não é um componente principal do pipeline.  
 - **c)** Análise da concorrência não faz parte de um pipeline de ML."
+
+**Comece o simulado agora!**

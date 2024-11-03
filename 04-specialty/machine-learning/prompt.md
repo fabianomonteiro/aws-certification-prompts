@@ -139,3 +139,5 @@ d) Erro Quadrático Médio
 - **b)** A matriz de confusão fornece detalhes, mas não é uma métrica única e não facilita a comparação de modelos.
 
 - **d)** Erro Quadrático Médio é usado para problemas de regressão, não de classificação."
+
+**Comece o simulado agora!**

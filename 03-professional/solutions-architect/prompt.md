@@ -210,3 +210,5 @@ Deseja continuar com a próxima pergunta ou revisar mais flashcards?"
 - **Integração Multimídia:** Utilize recursos visuais para enriquecer o aprendizado.
 
 - **Atualização Contínua do Material:** Mantenha o conteúdo atualizado com as últimas novidades da AWS.
+
+**Comece o simulado agora!**

@@ -139,3 +139,5 @@ d) AWS DataStream
 - c) Amazon RDS é um serviço de banco de dados relacional gerenciado.
 
 - d) AWS DataStream é um serviço fictício e não existe na AWS."
+
+**Comece o simulado agora!**

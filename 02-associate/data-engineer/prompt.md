@@ -97,3 +97,5 @@ d) Amazon ElastiCache
 - b) O Amazon RDS é um banco de dados relacional gerenciado, mas não tem a mesma escalabilidade horizontal que o DynamoDB.
 - c) O Amazon S3 Glacier é uma solução de armazenamento a longo prazo, com alta latência.
 - d) O Amazon ElastiCache é um serviço de cache, não utilizado para armazenamento primário de dados."
+
+**Comece o simulado agora!**

@@ -144,3 +144,5 @@ d) AWS Message Queue Service
 - **b)** Amazon SNS é um serviço de notificações, não uma fila de mensagens.
 - **c)** AWS EventBridge é um barramento de eventos que conecta aplicações usando dados de suas próprias aplicações, aplicações SaaS e serviços da AWS.
 - **d)** **AWS Message Queue Service** é um serviço fictício e não existe na AWS."
+
+**Comece o simulado agora!**

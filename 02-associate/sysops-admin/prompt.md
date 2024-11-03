@@ -143,3 +143,5 @@ d) AWS Alert Manager
 - **c)** AWS GuardDuty é um serviço de detecção de ameaças de segurança, não de monitoramento de métricas de performance.
 
 - **d)** **AWS Alert Manager** é um serviço fictício e não existe na AWS."
+
+**Comece o simulado agora!**

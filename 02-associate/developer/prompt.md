@@ -145,3 +145,5 @@ As outras opções estão incorretas porque:
 - **b)** Aumentar a memória alocada pode melhorar o desempenho, mas não aborda o problema do tempo de inicialização devido ao tamanho do código.
 
 - **d)** Mover a aplicação para um servidor EC2 muda o paradigma de serverless para servidores gerenciados, o que pode não ser desejável."
+
+**Comece o simulado agora!**
