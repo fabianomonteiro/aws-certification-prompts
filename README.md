@@ -1,10 +1,14 @@
+Aqui está o README atualizado com links para as IA generativas utilizadas nos testes:
+
+---
+
 # AWS Certification Prompts
 
 Bem-vindo ao **AWS Certification Prompts**, uma coleção de prompts de simulado para certificações AWS. Este repositório visa ajudar candidatos a se prepararem para exames AWS, oferecendo experiências interativas e realistas que refletem o estilo e a complexidade dos exames oficiais.
 
 ## Visão Geral
 
-Este repositório contém prompts para criar chatbots que simulam perguntas de certificação AWS, incluindo o AWS Cloud Practitioner, SysOps Administrator Associate, Solutions Architect Professional, entre outros. Cada prompt oferece perguntas práticas, feedback em tempo real, e recursos adicionais para reforçar o aprendizado.
+Este repositório contém prompts para criar chatbots que simulam perguntas de certificação AWS, incluindo o AWS Cloud Practitioner, SysOps Administrator Associate, Solutions Architect Professional, entre outros. Cada prompt oferece perguntas práticas, feedback em tempo real e recursos adicionais para reforçar o aprendizado.
 
 ### Funcionalidades dos Prompts
 
@@ -15,27 +19,27 @@ Este repositório contém prompts para criar chatbots que simulam perguntas de c
 
 ## Status de Validação dos Prompts
 
-| Certificação | Nível | ChatGPT | Claude | Gemini | Status |
-|-------------|--------|----------|---------|---------|---------|
-| AWS Certified Cloud Practitioner | Foundational | ✅ | ❓ | ❌ | Ativo |
-| AWS Certified AI Practitioner | Foundational | ✅ | ❓ | ❌ | Ativo |
-| AWS Certified SysOps Administrator | Associate | ✅ | ❓ | ❌ | Ativo |
-| AWS Certified Solutions Architect | Associate | ✅ | ❓ | ❌ | Ativo |
-| AWS Certified Developer | Associate | ✅ | ❓ | ❌ | Ativo |
-| AWS Certified Machine Learning Engineer | Associate | ✅ | ❓ | ❌ | Ativo |
-| AWS Certified Data Engineer | Associate | ✅ | ❓ | ❌ | Ativo |
-| AWS Solutions Architect Professional | Professional | ✅ | ✅ | ❌ | Ativo |
-| AWS DevOps Engineer Professional | Professional | ✅ | ❓ | ❌ | Ativo |
-| AWS Machine Learning Specialty | Specialty | ✅ | ❓ | ❌ | Ativo |
-| AWS Security Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
-| AWS Advanced Networking Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
-| AWS Database Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
-| AWS Data Analytics Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
-| AWS SAP on AWS Specialty | Specialty | ❓ | ❓ | ❓ | Em Desenvolvimento |
+| Certificação                          | Nível        | [ChatGPT](https://openai.com/chatgpt) | [Claude](https://claude.ai) | [Gemini](https://gemini.google.com) | Status |
+|---------------------------------------|--------------|---------------------------------------|-----------------------------------------|---------------------------------------------|---------|
+| AWS Certified Cloud Practitioner       | Foundational | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Certified AI Practitioner          | Foundational | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Certified SysOps Administrator     | Associate    | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Certified Solutions Architect      | Associate    | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Certified Developer                | Associate    | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Certified Machine Learning Engineer| Associate    | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Certified Data Engineer            | Associate    | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Solutions Architect Professional   | Professional | ✅                                     | ✅                                     | ❌                                         | Ativo   |
+| AWS DevOps Engineer Professional       | Professional | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Machine Learning Specialty         | Specialty    | ✅                                     | ❓                                     | ❌                                         | Ativo   |
+| AWS Security Specialty                 | Specialty    | ❓                                     | ❓                                     | ❓                                         | Em Desenvolvimento |
+| AWS Advanced Networking Specialty      | Specialty    | ❓                                     | ❓                                     | ❓                                         | Em Desenvolvimento |
+| AWS Database Specialty                 | Specialty    | ❓                                     | ❓                                     | ❓                                         | Em Desenvolvimento |
+| AWS Data Analytics Specialty           | Specialty    | ❓                                     | ❓                                     | ❓                                         | Em Desenvolvimento |
+| AWS SAP on AWS Specialty               | Specialty    | ❓                                     | ❓                                     | ❓                                         | Em Desenvolvimento |
 
 **Legenda:**
 - ✅ Testado e funcionando corretamente
-- ⚠️ Testado, mas com inconsistências
+- ⚠️ Testado, mas apresenta inconsistências
 - ❌ Testado e não funcional
 - ❓ Ainda não testado
 
