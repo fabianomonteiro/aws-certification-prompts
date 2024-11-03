@@ -15,7 +15,7 @@ Este repositório contém prompts para criar chatbots que simulam perguntas de c
 
 ## Status de Validação dos Prompts
 
-| Certificação                          | Nível        | [ChatGPT](https://openai.com/chatgpt) | [Claude](https://claude.ai) | [Gemini](https://gemini.google.com) | [Perplexity](https://www.perplexity.ai/) | [Meta AI](https://www.meta.ai/) | Status                |
+| Certificação                          | Nível        | [ChatGPT](https://chatgpt.com) | [Claude](https://claude.ai) | [Gemini](https://gemini.google.com) | [Perplexity](https://www.perplexity.ai) | [Meta AI](https://www.meta.ai) | Status                |
 |---------------------------------------|--------------|---------------------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------|--------------------------------|-----------------------|
 | AWS Certified Cloud Practitioner       | Foundational | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
 | AWS Certified AI Practitioner          | Foundational | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
