@@ -1,105 +1,43 @@
-# AWS Certification Prompts
+# AWS Certification Prompts (Migrado para Open Certification Prep)
 
-Bem-vindo ao **AWS Certification Prompts**, uma coleção de prompts de simulado para certificações AWS. Este repositório visa ajudar candidatos a se prepararem para exames AWS, oferecendo experiências interativas e realistas que refletem o estilo e a complexidade dos exames oficiais.
+**Este repositório foi movido para um novo local**: [Open Certification Prep](https://github.com/fabianomonteiro/open-certification-prep).
 
-## Visão Geral
+A partir de agora, este repositório será mantido como uma referência, mas **não será mais atualizado**. Para novos desenvolvimentos, contribuições e adição de novas certificações, por favor, acesse o novo repositório.
 
-Este repositório contém prompts para criar chatbots que simulam perguntas de certificação AWS, incluindo o AWS Cloud Practitioner, SysOps Administrator Associate, Solutions Architect Professional, entre outros. Cada prompt oferece perguntas práticas, feedback em tempo real e recursos adicionais para reforçar o aprendizado.
+## Motivadores da Mudança
 
-### Funcionalidades dos Prompts
+A principal razão para mover o repositório foi expandir o alcance para incluir **certificações de outras empresas** além da AWS e permitir **contribuições de outras pessoas**. Com o novo repositório, o objetivo é:
 
-- **Interatividade:** Prompts que guiam o usuário em simulados personalizados, com feedback imediato e explicações.
-- **Reforço de Aprendizado:** Flashcards e explicações detalhadas para questões, fortalecendo a compreensão.
-- **Distribuição de Questões:** Divisão de perguntas conforme as porcentagens do exame oficial.
-- **Atualização Contínua:** Prompts atualizados para acompanhar mudanças nos serviços da AWS.
+- **Adicionar Certificações de Outras Empresas**: Além das certificações AWS, agora será possível adicionar e organizar prompts para exames de outras plataformas de certificação como CKAD, Google Cloud, Microsoft Azure e outras.
+- **Facilitar Contribuições**: O novo repositório permitirá uma colaboração mais eficiente de desenvolvedores e educadores que desejam contribuir com seus próprios prompts, melhorias e atualizações.
 
-## Status de Validação dos Prompts
+## O Novo Repositório
 
-| Certificação                          | Nível        | [ChatGPT](https://chatgpt.com) | [Claude](https://claude.ai) | [Gemini](https://gemini.google.com) | [Perplexity](https://www.perplexity.ai) | [Meta AI](https://www.meta.ai) | Status                |
-|---------------------------------------|--------------|---------------------------------------|-----------------------------------------|---------------------------------------------|-------------------------------------------|--------------------------------|-----------------------|
-| AWS Certified Cloud Practitioner       | Foundational | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Certified AI Practitioner          | Foundational | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Certified SysOps Administrator     | Associate    | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Certified Solutions Architect      | Associate    | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Certified Developer                | Associate    | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Certified Machine Learning Engineer| Associate    | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Certified Data Engineer            | Associate    | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Solutions Architect Professional   | Professional | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS DevOps Engineer Professional       | Professional | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Machine Learning Specialty         | Specialty    | ✅                                     | ✅                                     | ✅                                         | ✅                                        | ✅                             | Ativo                |
-| AWS Security Specialty                 | Specialty    | ❓                                     | ❓                                     | ❓                                         | ❓                                        | ❓                             | Em Desenvolvimento   |
-| AWS Advanced Networking Specialty      | Specialty    | ❓                                     | ❓                                     | ❓                                         | ❓                                        | ❓                             | Em Desenvolvimento   |
-| AWS Database Specialty                 | Specialty    | ❓                                     | ❓                                     | ❓                                         | ❓                                        | ❓                             | Em Desenvolvimento   |
-| AWS Data Analytics Specialty           | Specialty    | ❓                                     | ❓                                     | ❓                                         | ❓                                        | ❓                             | Em Desenvolvimento   |
-| AWS SAP on AWS Specialty               | Specialty    | ❓                                     | ❓                                     | ❓                                         | ❓                                        | ❓                             | Em Desenvolvimento   |
+O repositório agora se chama **[Open Certification Prep](https://github.com/fabianomonteiro/open-certification-prep)** e terá a seguinte estrutura:
 
-**Legenda:**
-- ✅ Testado e funcionando corretamente
-- ⚠️ Testado, mas apresenta inconsistências
-- ❌ Testado e não funcional
-- ❓ Ainda não testado
+- Inclusão de múltiplos provedores de certificação.
+- Organização em múltiplos idiomas, como inglês e português.
+- Suporte para contribuições abertas, permitindo que qualquer pessoa envie prompts para diferentes certificações.
 
+Por favor, se você deseja contribuir ou usar os prompts atualizados, **visite o novo repositório** para encontrar as informações e arquivos mais recentes.
 
-## Estrutura do Repositório
+## Mudanças no Fluxo de Contribuições
 
-```
-aws-certification-prompts/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── 01-foundational/
-│   ├── ai-practitioner/
-│   │   └── prompt.md
-│   └── cloud-practitioner/
-│       └── prompt.md
-├── 02-associate/
-│   ├── data-engineer/
-│   │   └── prompt.md
-│   ├── developer/
-│   │   └── prompt.md
-│   ├── machine-learning-engineer/
-│   │   └── prompt.md
-│   ├── solutions-architect/
-│   │   └── prompt.md
-│   └── sysops-admin/
-│       └── prompt.md
-├── 03-professional/
-│   ├── devops-engineer/
-│   │   ├── README.md
-│   │   └── prompt.md
-│   └── solutions-architect/
-│       ├── README.md
-│       └── prompt.md
-└── 04-specialty/
-    ├── machine-learning/
-    │   └── prompt.md
-    ├── networking/
-    └── security/
-```
+No novo repositório, qualquer pessoa pode **contribuir com novos prompts**, correções ou melhorias. A contribuição será mais fácil e eficiente com um fluxo de trabalho simplificado, onde todos os tipos de certificações serão centralizados.
 
-## Como Usar
+### Como Contribuir no Novo Repositório
 
-1. **Escolha uma Certificação:** Navegue até o diretório específico para a certificação desejada.
-2. **Copie e Cole o Prompt:** Insira o prompt no modelo de IA desejado e personalize conforme necessário.
-3. **Simulado Personalizado:** Responda às perguntas e receba feedback instantâneo e explicações detalhadas.
-4. **Revisão com Flashcards:** Opcionalmente, revise conceitos importantes usando flashcards baseados nas perguntas respondidas.
+- **Fork o repositório novo** no GitHub.
+- **Crie uma branch de feature** com o nome adequado.
+- **Faça as modificações e submeta um Pull Request** para revisão.
 
-## Contribuindo
+## Repositório Antigo
 
-Para contribuir, faça o seguinte:
+Este repositório será **mantido em modo somente leitura**, ou seja, **não serão aceitas novas contribuições** aqui, mas você pode usá-lo como referência ou migração para o novo repositório. Qualquer issue aberta ou pull request será fechado.
 
-1. **Crie um Fork** do repositório.
-2. **Crie uma Branch de Feature:** `git checkout -b feature/nova-certificacao`
-3. **Commit das Alterações:** `git commit -m 'Adiciona prompts para nova certificação'`
-4. **Envie para a Branch:** `git push origin feature/nova-certificacao`
-5. **Abra um Pull Request.**
-
-### Diretrizes para Contribuição
-
-- Organize os prompts por certificação e nível.
-- Atualize a tabela de status de validação e documente requisitos específicos.
-- Inclua exemplos de uso e feedback esperado.
+---
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a **[Licença GNU General Public License v3.0](LICENSE)**.  
+Ao usar ou contribuir para este projeto, você concorda em cumprir os termos desta licença.
