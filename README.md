@@ -1,6 +1,6 @@
-# AWS Certification Prompts (Migrado para Open Certification Prep)
+# AWS Certification Prompts (Migrado para Open Certification Prompts)
 
-**Este repositório foi movido para um novo local**: [Open Certification Prep](https://github.com/fabianomonteiro/open-certification-prep).
+**Este repositório foi movido para um novo local**: [Open Certification Prompts](https://github.com/fabianomonteiro/open-certification-prompts).
 
 A partir de agora, este repositório será mantido como uma referência, mas **não será mais atualizado**. Para novos desenvolvimentos, contribuições e adição de novas certificações, por favor, acesse o novo repositório.
 
@@ -13,7 +13,7 @@ A principal razão para mover o repositório foi expandir o alcance para incluir
 
 ## O Novo Repositório
 
-O repositório agora se chama **[Open Certification Prep](https://github.com/fabianomonteiro/open-certification-prep)** e terá a seguinte estrutura:
+O repositório agora se chama **[Open Certification Prompts](https://github.com/fabianomonteiro/open-certification-prompts)** e terá a seguinte estrutura:
 
 - Inclusão de múltiplos provedores de certificação.
 - Organização em múltiplos idiomas, como inglês e português.
